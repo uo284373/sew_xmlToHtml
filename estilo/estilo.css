@@ -1,0 +1,21 @@
+/*****************
+/* Autor: Carlos Diez Fernández UO284373
+/* Descripción: fichero css en el que se definen las reglas referidas a fuentes,colores,margenes,tamaño de letra...
+/***********/
+/**
+**/
+h1{ /*Especificidad: 001*/
+    color: #fff;
+    background-color: blue;
+    padding: 2em;
+    text-align: center;
+}
+
+
+a{  /*Especificidad: 001*/
+    color: blueviolet;
+}
+
+a:hover{  /*Especificidad: 011*/
+    border-bottom: 0.3em solid;
+}
