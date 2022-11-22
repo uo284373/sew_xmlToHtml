@@ -1,1 +1,0 @@
-document.write("<h2>Nombre de la Titulación: "+ asignatura.nombreTitulacion+"</h2>");
