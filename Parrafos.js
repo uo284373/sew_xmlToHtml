@@ -1,1 +1,0 @@
-document.write("<p>Curso actual: "+ asignatura.cursoActual+" Nombre del estudiante: "+asignatura.nombreEstudiante+" Email: "+asignatura.email+"</p>");
