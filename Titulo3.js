@@ -1,0 +1,1 @@
+document.write("<h3>Nombre del Centro: "+ asignatura.nombreCentro+"</h3>");
