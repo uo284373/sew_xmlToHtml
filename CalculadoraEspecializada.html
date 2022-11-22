@@ -1,0 +1,59 @@
+<!DOCTYPE HTML>
+
+<html lang="es">
+<head>
+    <!-- Datos que describen el documento -->
+    <meta charset="UTF-8" />
+    <title>Calculadora Especializada</title>
+
+    <meta name ="author" content ="Carlos Diez Fernández" />
+    <meta name ="description" content ="este documento contiene los botones de la calculadora especializada" />
+    <meta name ="keywords" content ="calculadora,rpn,especializada,botones" />
+
+    <!--Definición de la ventana gráfica-->
+    <meta name ="viewport" content ="width=device-width, initial scale=1.0" />
+    <script src="CalculadoraEspecializada.js"></script>
+    
+    <!-- añadir el elemento link de enlace a la hoja de estilo dentro del <head> del documento html -->
+    <link rel="stylesheet" type="text/css" href="CalculadoraEspecializada.css" />
+</head>
+
+<body>
+    <!-- Datos con el contenidos que aparece en el navegador -->
+    
+    <form>
+        <label for="texto">Calculadora Especializada</label>
+        <textarea id="texto" cols="70" rows="60" readonly></textarea>
+        <input type="button" value="CE" onclick="calculadora.ON()">
+        <input type="button" value="+" onclick="calculadora.suma()">
+        <input type="button" value="-" onclick="calculadora.resta()">
+        <input type="button" value="*" onclick="calculadora.multiplicacion()">
+        <input type="button" value="/" onclick="calculadora.division()">
+        <input type="button" value="7" onclick="calculadora.digitos(this.value)">
+        <input type="button" value="8" onclick="calculadora.digitos(this.value)">
+        <input type="button" value="9" onclick="calculadora.digitos(this.value)">
+        <input type="button" value="sin" onclick="calculadora.sin()">
+        <input type="button" value="asin" onclick="calculadora.asin()">
+        <input type="button" value="4" onclick="calculadora.digitos(this.value)">
+        <input type="button" value="5" onclick="calculadora.digitos(this.value)">
+        <input type="button" value="6" onclick="calculadora.digitos(this.value)">
+        <input type="button" value="cos" onclick="calculadora.cos()">
+        <input type="button" value="acos" onclick="calculadora.acos()">
+        <input type="button" value="1" onclick="calculadora.digitos(this.value)">
+        <input type="button" value="2" onclick="calculadora.digitos(this.value)">
+        <input type="button" value="3" onclick="calculadora.digitos(this.value)">
+        <input type="button" value="tan" onclick="calculadora.tan()">
+        <input type="button" value="atan" onclick="calculadora.atan()">
+        <input type="button" value="0" onclick="calculadora.digitos(this.value)">
+        <input type="button" value="." onclick="calculadora.punto()">
+        <input type="button" value="Enter" onclick="calculadora.enter()">
+        <input type="button" value="Normal" onclick="calculadora.normal()">
+        <input type="button" value="Avanzado" onclick="calculadora.avanzado()">
+        <input type="button" value="x" onclick="calculadora.digitos(this.value)">
+        <input type="button" value="Integral" onclick="calculadora.integral()">
+        <input type="button" value="Derivada" onclick="calculadora.derivar()">
+    </form>
+    
+    
+</body>
+</html>
