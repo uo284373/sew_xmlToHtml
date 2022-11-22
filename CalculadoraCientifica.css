@@ -25,6 +25,10 @@ section{ /*Especificidad 001*/
     background-color: rgba(184, 182, 182, 0.542);
 }
 
+label{ /*Especificidad 001*/
+    grid-column: span 5;
+}
+
 input[type=text] { /*Especificidad 011*/
     grid-column: span 5;
     grid-row: span 4;
