@@ -1,1 +1,0 @@
-document.write("Idioma del navegador: "+navegador.idioma);
