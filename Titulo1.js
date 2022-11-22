@@ -1,1 +1,0 @@
-document.write("<h1>Nombre de la Asignatura: "+ asignatura.nombreAsignatura+"</h1>");
