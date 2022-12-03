@@ -1,0 +1,34 @@
+<!DOCTYPE HTML>
+
+<html lang="es">
+<head>
+    <!-- Datos que describen el documento -->
+    <meta charset="UTF-8" />
+    <title>Ejercicio 11</title>
+
+    <meta name ="author" content ="Carlos Diez Fernández" />
+    <meta name ="description" content ="Este documento contiene información sobre la geolocalizacion del usuario" />
+    <meta name ="keywords" content ="" />
+
+    <!--Definición de la ventana gráfica-->
+    <meta name ="viewport" content ="width=device-width, initial scale=1.0" />
+    <script src='https://api.tiles.mapbox.com/mapbox-gl-js/v0.49.0/mapbox-gl.js'></script>
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="Ejercicio11.js"></script>
+    
+    <!-- añadir el elemento link de enlace a la hoja de estilo dentro del <head> del documento html -->
+    <link rel="stylesheet" type="text/css" href="Ejercicio11.css" />
+    <link href="https://api.mapbox.com/mapbox-gl-js/v2.11.0/mapbox-gl.css" rel="stylesheet">
+</head>
+
+<body onload="mapaDinamicoGoogle.mapbox()">
+    <!-- Datos con el contenidos que aparece en el navegador -->
+    <header>
+        <h1>Tiempo meteorológico a través de un mapa</h1>
+    </header>
+    <h2>Seleccione un punto en el mapa para conocer el tiempo meteorológico del mismo:</h2>
+    <main><aside></aside></main>
+    
+    
+</body>
+</html>
