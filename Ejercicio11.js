@@ -63,7 +63,7 @@ class GeoLocalizacion{
                     $("aside").after("<section><h3>"+ciudad+"</h3>");
                     $.ajax({
                         dataType: "json",
-                        url: "http://api.openweathermap.org/data/2.5/weather?q=" + ciudad + "&units=metric&lang=es&APPID=915adea5031404d0d1c49bbce08ec53d",
+                        url: "https://api.openweathermap.org/data/2.5/weather?q=" + ciudad + "&units=metric&lang=es&APPID=915adea5031404d0d1c49bbce08ec53d",
                         method: 'GET',
                         success: function(datos){
                             var icono = "<img src=http://openweathermap.org/img/wn/" + datos.weather[0].icon + "@2x.png alt=\"icono del Tiempo "+datos.name+"\"/>";
