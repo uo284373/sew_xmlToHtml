@@ -1,0 +1,43 @@
+/*****************
+/* Autor: Carlos Diez Fernández UO284373
+/* Descripción: css para establecer las propiedades de la tabla
+/***********/
+/**
+**/
+
+table{  /*Especificidad:001*/
+    text-align: center;
+    border: 0.1em solid;
+}
+
+table > caption{  /*Especificidad:002*/
+    font-weight: bolder;
+    font-size: 1em;
+    background-color:chocolate ;
+    border: 0.1em solid;
+    padding: 0.3em;
+}
+
+th,td{  /*Especificidad:001*/
+    border: 0.1em solid;
+}
+
+th[scope="col"]{  /*Especificidad:011*/
+    background-color:deepskyblue;
+}
+
+th[scope="row"]{  /*Especificidad:011*/
+    background-color: greenyellow;
+}
+
+fieldset > legend{  /*Especificidad:002*/
+    font-weight: bolder;
+    margin-bottom: 1em;
+}
+
+
+
+
+
+
+

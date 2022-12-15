@@ -1,0 +1,89 @@
+/*****************
+/* Autor: Carlos Diez Fernández UO284373
+/* Descripción: fichero css en el que se definen las reglas referidas a fuentes,colores,margenes,tamaño de letra...
+/***********/
+/**
+**/
+body{  /*Especificidad:001*/
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: justify;
+}
+header{  /*Especificidad:001*/
+    background-color: darkblue;
+    display: flex;
+    padding: 0.5em;
+    align-items: center;
+}
+
+header > section > h1{  /*Especificidad:003*/
+    font-size: 1.8em;
+    color: rgb(64, 182, 53);
+    margin-left: 0.3em;
+    margin-top: 0em;
+}
+
+header > section > img{ /*Especificidad:003*/
+    margin-left: 0.5em;
+}
+
+nav{  /*Especificidad:001*/
+    margin-left: 10em;
+}
+
+nav > a{  /*Especificidad:002*/
+    margin-inline: 1em;
+    line-height: 2em;
+    text-decoration: none;
+    color: white;
+    font-size: 1.3em;
+}
+
+nav > a:hover{  /*Especificidad:012*/
+    background-color: coral;
+}
+
+h2{  /*Especificidad:001*/
+    font-family: Impact,serif;
+    font-size: 2em;
+    color:chocolate;
+    font-weight: bolder;
+}
+
+ol >li{  /*Especificidad:002*/
+    font-weight: bolder;
+}
+
+ol > li > ol >li{  /*Especificidad:004*/
+    font-weight: lighter;
+}
+
+h3{  /*Especificidad:001*/
+    color: chocolate;
+}
+
+a[title="página de descarga"], a[title="Página sobre las versiones de Node.js"]{  /*Especificidad:011*/
+    outline:none;
+    text-decoration: none;
+    font-weight: bolder;
+}
+
+a:link[title="página de descarga"], a:link[title="Página sobre las versiones de Node.js"]{  /*Especificidad:021*/
+    color: #7C3F13;
+}
+
+a:visited[title="página de descarga"], a:visited[title="Página sobre las versiones de Node.js"]{  /*Especificidad:021*/
+    color: blueviolet;
+}
+
+a:hover[title="página de descarga"], a:hover[title="Página sobre las versiones de Node.js"]{  /*Especificidad:021*/
+    border-bottom: 0.3em solid;
+}
+
+fieldset{  /*Especificidad:001*/
+    margin-bottom: 2em;
+}
+
+
+
+
+

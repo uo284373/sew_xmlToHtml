@@ -1,0 +1,227 @@
+<!DOCTYPE HTML>
+
+<html lang="es">
+<head>
+    <!-- Datos que describen el documento -->
+    <meta charset="UTF-8" />
+    <title>Versiones</title>
+
+    <meta name ="author" content ="Carlos Diez Fernández" />
+    <meta name ="description" content ="Este documento contendrá información sobre la diferentes versiones que ha habido de Node.js" />
+    <meta name ="keywords" content ="Node.js,Framework,Versión,Nombre,Fecha,Estado,LTS,Inicio,Fin,Mantenimiento" />
+
+    <!--Definición de la ventana gráfica-->
+    <meta name ="viewport" content ="width=device-width, initial-scale=1.0" />
+
+    
+    <!-- añadir el elemento link de enlace a la hoja de estilo dentro del <head> del documento html -->
+    <link rel="stylesheet" type="text/css" href="estilo/estilo.css" />
+    <link rel="stylesheet" type="text/css" href="estilo/layout.css" />
+    <link rel="stylesheet" type="text/css" href="estilo/tabla.css" />
+
+</head>
+
+<body>
+    <!-- Datos con el contenidos que aparece en el navegador -->
+    <header>
+        <section>
+            <img src="multimedia/logoheader.png" alt="Logo Node.js" width="110" height="80"/>
+            <h1>Node.js</h1>
+        </section>
+     
+
+
+        <nav>
+            <a title="Introducción" tabindex="1" accesskey="I" href="index.html">Introducción</a>
+            <a title="Características" accesskey="C" tabindex="2" href="caracteristicas.html">Características</a>
+            <a title="Versiones" accesskey="V" tabindex="3" href="versiones.html">Versiones</a>
+            <a title="Frameworks" accesskey="F" tabindex="4" href="frameworks.html">Frameworks</a>
+            <a title="Opiniones" accesskey="O" tabindex="5" href="opiniones.html">Opiniones</a>
+        </nav>
+    </header>
+        
+    
+    <main>
+        <h2>Versiones</h2>
+        <p>Las nuevas versiones principales de Node.js se sacan de la rama máster de GitHub cada seis meses. Las versiones pares se sacan en abril, y las impares en octubre. Cuando se libera una versión impar, la versión par anterior pasa a soporte a largo plazo (Long Term Support, LTS), que da a la versión un soporte activo de 18 meses desde la fecha de inicio de la LTS. Después de estos 18 meses, la versión recibe otros 12 meses de soporte de mantenimiento. Una versión activa recibirá los cambios compatibles unas pocas semanas después de que aterricen en la versión estable actual. Una versión de mantenimiento recibirá solamente actualizaciones críticas y de documentación.</p>
+        <p>La estrategia y política de las versiones LTS se gestiona por el LTS Working Group en colaboración con el Technical Steering Committee de Node.js Foundation.</p>
+
+        <p>En la siguiente tabla se pueden ver las versiones de Node.js:</p>
+        <table>
+            <caption>Versiones Node.js</caption>
+
+            <tbody>
+                <tr>
+                    <th scope="col" id="version">Versión</th>
+                    <th scope="col" id="nombre">Nombre</th>
+                    <th scope="col" id="fechadeliberacion">Fecha de liberación</th>
+                    <th scope="col" id="estadolts">Estado LTS</th>
+                    <th scope="col" id="iniciolts">Inicio LTS</th>
+                    <th scope="col" id="iniciodemantenimiento">Inicio de mantenimiento</th>
+                    <th scope="col" id="findemantenimiento">Fin de mantenimiento</th>
+                </tr>
+                <tr>
+                    <th scope="row" id="v0.10.x" headers="version">v0.10.x</th>
+                    <td headers="v0.10.x nombre">-</td>
+                    <td headers="v0.10.x fechadeliberacion">2013-03-11</td>
+                    <td headers="v0.10.x estadolts">Sin soporte</td>
+                    <td headers="v0.10.x iniciolts">-</td>
+                    <td headers="v0.10.x iniciodemantenimiento">2015-10-01</td>
+                    <td headers="v0.10.x findemantenimiento">2016-10-31</td>
+                </tr>
+                <tr>
+                    <th scope="row" id="v0.12.x" headers="version">v0.12.x</th>
+                    <td headers="v0.12.x nombre">-</td>
+                    <td headers="v0.12.x fechadeliberacion">2015-02-06</td>
+                    <td headers="v0.12.x estadolts">Sin soporte</td>
+                    <td headers="v0.12.x iniciolts">-</td>
+                    <td headers="v0.12.x iniciodemantenimiento">2016-04-01</td>
+                    <td headers="v0.12.x findemantenimiento">2016-12-31</td>
+                </tr>
+                <tr>
+                    <th scope="row" id="4.x" headers="version">4.x</th>
+                    <td headers="4.x nombre">Argon</td>
+                    <td headers="4.x fechadeliberacion">2015-09-08</td>
+                    <td headers="4.x estadolts">Sin soporte</td>
+                    <td headers="4.x iniciolts">2015-10-01</td>
+                    <td headers="4.x iniciodemantenimiento">2017-04-01</td>
+                    <td headers="4.x findemantenimiento">2018-04-30</td>
+                </tr>
+                <tr>
+                    <th scope="row" id="5.x" headers="version">5.x</th>
+                    <td headers="5.x nombre">-</td>
+                    <td headers="5.x fechadeliberacion">2015-10-29</td>
+                    <td headers="5.x estadolts">No LTS</td>
+                    <td headers="5.x iniciolts">N/D</td>
+                    <td headers="5.x iniciodemantenimiento">N/D</td>
+                    <td headers="5.x findemantenimiento">2016-06-30</td>
+                </tr>
+                <tr>
+                    <th scope="row" id="6.x" headers="version">6.x</th>
+                    <td headers="6.x nombre">Boron</td>
+                    <td headers="6.x fechadeliberacion">2016-04-26</td>
+                    <td headers="6.x estadolts">Sin soporte</td>
+                    <td headers="6.x iniciolts">2016-10-18</td>
+                    <td headers="6.x iniciodemantenimiento">2018-04-30</td>
+                    <td headers="6.x findemantenimiento">Abril de 2019</td>
+                </tr>
+                <tr>
+                    <th scope="row" id="7.x" headers="version">7.x</th>
+                    <td headers="7.x nombre">-</td>
+                    <td headers="7.x fechadeliberacion">2016-10-25</td>
+                    <td headers="7.x estadolts">No LTS</td>
+                    <td headers="7.x iniciolts">N/D</td>
+                    <td headers="7.x iniciodemantenimiento">N/D</td>
+                    <td headers="7.x findemantenimiento">2017-06-30</td>
+                </tr>
+                <tr>
+                    <th scope="row" id="8.x" headers="version">8.x</th>
+                    <td headers="8.x nombre">Carbon</td>
+                    <td headers="8.x fechadeliberacion">2017-05-30</td>
+                    <td headers="8.x estadolts">Sin soporte</td>
+                    <td headers="8.x iniciolts">2017-10-31</td>
+                    <td headers="8.x iniciodemantenimiento">2019-01-01</td>
+                    <td headers="8.x findemantenimiento">Diciembre de 2019</td>
+                </tr>
+                <tr>
+                    <th scope="row" id="9.x" headers="version">9.x</th>
+                    <td headers="9.x nombre">-</td>
+                    <td headers="9.x fechadeliberacion">2017-10-01</td>
+                    <td headers="9.x estadolts">No LTS</td>
+                    <td headers="9.x iniciolts">N/D</td>
+                    <td headers="9.x iniciodemantenimiento">N/D</td>
+                    <td headers="9.x findemantenimiento">2018-06-30</td>
+                </tr>
+                <tr>
+                    <th scope="row" id="10.x" headers="version">10.x</th>
+                    <td headers="10.x nombre">Dubnium</td>
+                    <td headers="10.x fechadeliberacion">2018-04-24</td>
+                    <td headers="10.x estadolts">Mantenimiento</td>
+                    <td headers="10.x iniciolts">30 de octubre de 2018</td>
+                    <td headers="10.x iniciodemantenimiento">19 de mayo de 2019</td>
+                    <td headers="10.x findemantenimiento">30 d eabril de 2021</td>
+                </tr>
+                <tr>
+                    <th scope="row" id="11.x" headers="version">11.x</th>
+                    <td headers="11.x nombre">-</td>
+                    <td headers="11.x fechadeliberacion">2018-10-23</td>
+                    <td headers="11.x estadolts">No LTS</td>
+                    <td headers="11.x iniciolts">N/D</td>
+                    <td headers="11.x iniciodemantenimiento">N/D</td>
+                    <td headers="11.x findemantenimiento">1 de junio de 2019</td>
+                </tr>
+                <tr>
+                    <th scope="row" id="12.x" headers="version">12.x</th>
+                    <td headers="12.x nombre">Erbium</td>
+                    <td headers="12.x fechadeliberacion">2019-04-23</td>
+                    <td headers="12.x estadolts">Mantenimiento</td>
+                    <td headers="12.x iniciolts">21 de octubre de 2019</td>
+                    <td headers="12.x iniciodemantenimiento">20 de octubre de 2020</td>
+                    <td headers="12.x findemantenimiento">30 de abril de 2022</td>
+                </tr>
+                <tr>
+                    <th scope="row" id="13.x" headers="version">13.x</th>
+                    <td headers="13.x nombre">-</td>
+                    <td headers="13.x fechadeliberacion">22 de octubre de 2019</td>
+                    <td headers="13.x estadolts">No LTS</td>
+                    <td headers="13.x iniciolts">-</td>
+                    <td headers="13.x iniciodemantenimiento">1 de abril de 2020</td>
+                    <td headers="13.x findemantenimiento">1 de junio de 2020</td>
+                </tr>
+                <tr>
+                    <th scope="row" id="14.x" headers="version">14.x</th>
+                    <td headers="14.x nombre">Fermium</td>
+                    <td headers="14.x fechadeliberacion">21 de abril de 2020</td>
+                    <td headers="14.x estadolts">Activo</td>
+                    <td headers="14.x iniciolts">20 de octubre de 2020</td>
+                    <td headers="14.x iniciodemantenimiento">19 de octubre de 2021</td>
+                    <td headers="14.x findemantenimiento">20 de abril de 2023</td>
+                </tr>
+                <tr>
+                    <th scope="row" id="15.x" headers="version">15.x</th>
+                    <td headers="15.x nombre">-</td>
+                    <td headers="15.x fechadeliberacion">22 de octubre de 2020</td>
+                    <td headers="15.x estadolts">No LTS</td>
+                    <td headers="15.x iniciolts">-</td>
+                    <td headers="15.x iniciodemantenimiento">1 de abril de 2021</td>
+                    <td headers="15.x findemantenimiento">1 de junio de 2021</td>
+                </tr>
+                <tr>
+                    <th scope="row" id="16.x" headers="version">16.x</th>
+                    <td headers="16.x nombre">-</td>
+                    <td headers="16.x fechadeliberacion">21 de abril de 2021</td>
+                    <td headers="16.x estadolts">Prevista</td>
+                    <td headers="16.x iniciolts">26 de octubre de 2021</td>
+                    <td headers="16.x iniciodemantenimiento">18 de octubre de 2022</td>
+                    <td headers="16.x findemantenimiento">30 de abril de 2024</td>
+                </tr>
+            </tbody>
+            
+        </table>
+
+        <p>Para ver todas las versiones junto con su documentación y poder descargarlas, puede consultar la siguiente <a href="https://nodejs.org/es/download/releases/" title="Página sobre las versiones de Node.js">página</a></p>
+
+        
+        
+    </main>
+
+
+    <aside>
+        <p>A continuación podrá escuchar un audio en el que se explica como descargar varias versiones de Node.js:</p>
+        <audio controls>
+            <source src="multimedia/versiones.mp3" type="audio/mp3"/>
+            <source src="multimedia/versiones.ogg" type="audio/ogg"/>
+            <source src="multimedia/versiones.wma" type="audio/wma"/>
+        </audio>
+    </aside>
+
+
+    <footer>
+        <img src="multimedia/HTML5.png" alt="HTML5 Válido" />
+        <img src="multimedia/CSS3.png" alt="CSS Válido" />
+        <p>Copyright @2022 Carlos Diez</p>
+    </footer>
+
+    
+</body>
+</html>
