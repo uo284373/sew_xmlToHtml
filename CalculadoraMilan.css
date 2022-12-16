@@ -1,0 +1,39 @@
+/*****************
+/* Autor: Carlos Diez Fernández UO284373
+/* Descripción: CSS para la calculadora milan
+/***********/
+
+body { /*Especificidad 001*/
+    margin-right: 80em;
+    margin-left: 4em;
+    margin-top: 5em;
+}
+
+
+form { /*Especificidad 001*/
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-gap: 0.5em;
+    background-color: rgb(127, 255, 212);
+    border-radius: 0.5em;
+    padding: 1em;
+    width: 22.5em;
+    height: 25em;
+    
+}
+
+label{ /*Especificidad 001*/
+    grid-column: span 5;
+}
+  
+  
+input[type=text] { /*Especificidad 011*/
+    grid-column: span 5;
+    margin-bottom: 1em;
+    font-size: 1em;
+}
+  
+input[type=submit][value="+"] { /*Especificidad 021*/
+    grid-column: 4;
+    grid-row: span 2;
+}
